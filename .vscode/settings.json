@@ -3,6 +3,6 @@
     "files.associations": {
         "stdlib.h": "c"
     },
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.activityBar.iconClickBehavior": "focus"
 }
