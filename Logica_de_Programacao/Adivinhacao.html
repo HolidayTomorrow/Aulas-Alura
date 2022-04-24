@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+    function sorteia(n){
+       return Math.round(Math.random()*n);
+    }
+    var numeroAleatorio = sorteia(10);
+    var chute = parseInt(prompt("Qual número deseja chutar?"));
+    
+    if(chute == numeroAleatorio){
+        mostra("Você acertou. pois eu pensei no número " + numeroAleatorio);
+    }else{
+        if(chute>numeroAleatorio){
+            mostra("Você errou, o número é menor.");
+        }else{
+            mostra("Você errou, o número é maior.");
+        }
+    }
+</script>

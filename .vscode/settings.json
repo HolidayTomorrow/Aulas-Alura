@@ -1,3 +1,8 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "stdlib.h": "c"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.activityBar.iconClickBehavior": "focus"
 }
